@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t justinlew/waveby -f Dockerfile.dev .
+
+script:
+  - docker run justinlew/waveby npm run test -- --coverage
