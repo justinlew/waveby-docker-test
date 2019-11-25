@@ -1,4 +1,4 @@
-https://travis-ci.org/justinlew/waveby-docker-test.svg?branch=master
+[![Build Status](https://travis-ci.org/justinlew/waveby-docker-test.svg?branch=master)](https://travis-ci.org/justinlew/waveby-docker-test)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
