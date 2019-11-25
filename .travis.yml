@@ -6,4 +6,4 @@ before_install:
   - docker build -t justinlew/waveby -f Dockerfile.dev .
 
 script:
-  - docker run justinlew/waveby npm run test -- --coverage
+  - docker run -e CI=true justinlew/waveby npm run test -- --coverage
